@@ -1,0 +1,18 @@
+{
+  "random_seed": 42,
+  "test_size": 0.2,
+  "fusion_weight": 0.6,
+  "decision_threshold": 0.5,
+  "cv_auc_at_best_weight": 0.8993468689120864,
+  "rf_best_params": {
+    "classifier__max_depth": 5,
+    "classifier__min_samples_leaf": 1,
+    "classifier__n_estimators": 200
+  },
+  "svm_best_params": {
+    "classifier__estimator__C": 1.0,
+    "classifier__estimator__gamma": "auto"
+  },
+  "rf_cv_auc": 0.8945660619573663,
+  "svm_cv_auc": 0.8961465265813091
+}

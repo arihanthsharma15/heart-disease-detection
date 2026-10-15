@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,Specificity,F1,ROC-AUC,Threshold
+Baseline (Majority),0.5410,0.0000,0.0000,1.0000,0.0000,—,0.50
+Random Forest,0.8852,0.8387,0.9286,0.8485,0.8814,0.9524,0.50
+SVM,0.8689,0.8125,0.9286,0.8182,0.8667,0.9491,0.50
+Hybrid (RF+SVM),0.8689,0.8125,0.9286,0.8182,0.8667,0.9556,0.50
